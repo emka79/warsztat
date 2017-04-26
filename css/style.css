@@ -1,0 +1,41 @@
+body {
+    
+    background-color: #66ccff;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+header,
+h2,
+.box {
+    padding: 15px 0;
+}
+
+.box {
+    width: 65%;
+    min-height: 185px;
+    margin: 0 auto;
+}
+
+.trigger,
+.tweeter {
+    margin: 30px auto;
+    width: 35%;
+    height: 60px;
+    line-height: 60px;
+    border: 5px solid;
+    transition: .5s;
+   
+}
+
+.tweeter:hover,
+.trigger:hover {
+    cursor: pointer;
+    background-color: #0073e6;
+}
+.tweet {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
